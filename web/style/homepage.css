@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url(../image/c.jpg);
+
+}
+#mainContent{
+	width:1200px;
+	background:#ccc;
+	min-height:1000px;
+	margin:0 auto;
+}
+
+#header{
+	width:100%;
+	height:250px;
+	background-image:url(../image/city.jpg);
+	/*background-color:#930;*/
+}
+#menu{
+	width:100%;
+	height:50px;
+	background-color:rgba(24,127,215,1);
+	position:relative;
+	left:0px;
+	top:200px;
+
+}
+.nav{
+	list-style-type:none;
+	color:#FFF;
+	line-height:50px;
+	font-family:"黑体";
+	font-size:20px;
+}
+  .nav li{
+	 float:left;
+   }
+     .nav li a{
+	     text-decoration:none;
+	     width:160px;
+	     display:block;
+	     text-align:center;
+		 border-left:1px solid white;
+     }
+          .nav li a:link{
+			 color:#FFF;
+		 }
+		  .nav li a:visited{
+			 color:#FFF;
+		 }
+		  .nav li a:hover{
+			 background-color:rgba(24,90,215,1);
+		 }
+		  .nav li a:active{
+			 color:#0FF;
+		 }
+#content{
+	width:100%;
+	height:680px;
+	background-color:#DBDBDB;
+	
+}
+
+#left{
+	float:left;
+	height:680px;
+	width:25%;
+	background-image:url(../image/r.png);
+}
+#right{
+	float:right;
+	height:680px;
+	width:25%;
+	background-image:url(../image/r.png);
+}
+#center{
+	float:left;
+   height:680px;
+   width:48%;
+   position:relative;
+   left:10px;
+
+}
+.title{
+    width:100%;
+	height:29px;
+	background:url(../image/background-title1.jpg);
+	/*background-repeat:repeat-x;*/
+	text-align:center;
+	font-family:"楷体";
+	font-size:29px;
+	color:#F93;
+}
+
+
+.titleimg{ 
+	width:100%;
+	height:29px;
+	background-image:url(../image/right.jpg);
+	background-repeat:no-repeat;
+
+}
+.titlecontent {
+	height: 29px;
+	width: 85%;
+	float: right;
+	vertical-align:middle;
+	line-height: 29px;
+    
+}
+  a{
+	   text-decoration:none;
+   }
+
+.rtitle{
+	width:100%;
+	height:340px;
+
+}
+
+.rtitleimg{
+	width:10%;
+	height:29px;
+	float:right;
+	background-image:url(../image/left2.jpg);
+	background-repeat:no-repeat;
+}
+
+.rtitlecontent {
+	height: 29px;
+	width: 85%;
+	text-align:right;
+	vertical-align:middle;
+	line-height: 29px;
+    
+}
+   
+#foot{
+	width:100%;
+	height:70px;
+	background-color:#959595;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 70px;
+	font-family:"黑体";
+	font-size:22px;
+}
+#BigImg{
+  width:100%;
+  height:640px;
+  background-image:url(../image/cen.jpg);
+ /*  background-color: white; */
+ 
+/*   text-align:center;
+  vertical-align:middle;
+  line-height: 340px;
+  font-family:"黑体";
+  font-size:200px; */  
+  }
+  #youqing{
+  	width:100%;
+	height:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 35px;
+	font-family:"宋体";
+	font-size:18px;
+  }
+  #nodian{
+  list-style: none;
+  }

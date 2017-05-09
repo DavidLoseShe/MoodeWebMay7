@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>gh</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>down</servlet-name>
+    <servlet-class>servlet.down</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>down</servlet-name>
+    <url-pattern>/down</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Save</servlet-name>
+    <servlet-class>servlet.Save</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Save</servlet-name>
+    <url-pattern>/Save</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>select</servlet-name>
+    <servlet-class>servlet.select</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>select</servlet-name>
+    <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>tiaoz</servlet-name>
+    <servlet-class>servlet.tiaoz</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tiaoz</servlet-name>
+    <url-pattern>/tiaoz</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>zhuce</servlet-name>
+    <servlet-class>servlet.zhuce</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zhuce</servlet-name>
+    <url-pattern>/zhuce</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>AccountIsExistServlet</servlet-name>
+    <servlet-class>servlet.AccountIsExistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountIsExistServlet</servlet-name>
+    <url-pattern>/AccountIsExistServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
